@@ -13,6 +13,8 @@
 		DE7C29762A74320800464618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7C29742A74320800464618 /* Main.storyboard */; };
 		DE7C29782A74320B00464618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7C29772A74320B00464618 /* Assets.xcassets */; };
 		DE7C297B2A74320B00464618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7C29792A74320B00464618 /* LaunchScreen.storyboard */; };
+		DE7C29832A7432A500464618 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C29822A7432A500464618 /* MyCell.swift */; };
+		DEBB40162A74364000B9736C /* MyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB40152A74364000B9736C /* MyLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DE7C29772A74320B00464618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE7C297A2A74320B00464618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE7C297C2A74320B00464618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7C29822A7432A500464618 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		DEBB40152A74364000B9736C /* MyLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		DE7C296D2A74320800464618 /* CollectionViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				DEBB40152A74364000B9736C /* MyLayout.swift */,
 				DE7C296E2A74320800464618 /* AppDelegate.swift */,
 				DE7C29702A74320800464618 /* SceneDelegate.swift */,
 				DE7C29722A74320800464618 /* ViewController.swift */,
 				DE7C29742A74320800464618 /* Main.storyboard */,
+				DE7C29822A7432A500464618 /* MyCell.swift */,
 				DE7C29772A74320B00464618 /* Assets.xcassets */,
 				DE7C29792A74320B00464618 /* LaunchScreen.storyboard */,
 				DE7C297C2A74320B00464618 /* Info.plist */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE7C29732A74320800464618 /* ViewController.swift in Sources */,
+				DE7C29832A7432A500464618 /* MyCell.swift in Sources */,
+				DEBB40162A74364000B9736C /* MyLayout.swift in Sources */,
 				DE7C296F2A74320800464618 /* AppDelegate.swift in Sources */,
 				DE7C29712A74320800464618 /* SceneDelegate.swift in Sources */,
 			);
